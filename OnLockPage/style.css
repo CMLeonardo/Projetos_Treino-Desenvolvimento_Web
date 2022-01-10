@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Sarala:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(55deg,rgb(0, 54, 85), rgb(156, 204, 243));
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 60px;
+    width: 90%;
+    background: rgb(78,129,164);
+    border-radius: 10px;
+}
+
+.imgHeader {
+    height: 80px;
+    width: 80px;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+header nav a {
+    font-family: 'Sarala', sans-serif;
+    text-decoration: none;
+    color: rgb(211, 237, 241);
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: rgb(1, 42, 78);
+    transform: scale(1.01);
+    transition: .2s;
+}
+
+main {
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.conteudoPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.conteudoPrincipal div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.conteudoPrincipal div h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFF2E7;
+    margin-bottom: -2px;
+}
+
+.conteudoPrincipal div h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(211, 237, 241);
+}
+
+.conteudoPrincipal div button {
+        box-sizing: border-box;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    cursor: pointer;
+    margin: 20px;
+    border-color: rgb(211, 237, 241);
+    background-image: -webkit-linear-gradient(45deg, rgb(211, 237, 241) 50%, transparent 50%);
+    background-image: linear-gradient(45deg, rgb(211, 237, 241) 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(211, 237, 241);
+}
+
+.conteudoPrincipal div button:hover {
+    background-position: 0;
+    color: #2F2325;
+}
+
+.conteudoSecundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.conteudoSecundario h3 {
+    border-top: 0.4px solid rgb(232, 244, 248);
+    padding-top: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+}
+
+.conteudoSecundario p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(211, 237, 241);
+    text-align: center;
+}
+
+.participantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.participantesContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.participantesItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.participantesItem a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(211, 237, 241);
+    margin-top: -15px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    margin-bottom: -20px;
+}
+
+.participantesItem a img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+#duvidas p{
+    margin-bottom: 48px;
+}
+
+footer {
+    border-top: 0.4px solid rgb(232, 244, 248);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 100%;
+}
+
+.logoSocial img{
+    height: 60px;
+    width: 60px;
+}
+
+.logoSocial img:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgb(211, 237, 241);
+    padding: 10px;
+}
+
+body::-webkit-scrollbar{
+    width: 6px;
+    height: 4px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(78,129,164);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(1, 42, 78);
+}
+
+body::-webkit-scrollbar-track{
+    background: rgb(130, 188, 236);
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px 0px #F0F0F0;
+}
+
+/*.divisoria {
+    display: flex;
+    margin: 0 auto;
+    border-top: 0.4px solid rgb(232, 244, 248);
+    margin-top: 48px;
+    width: 400px;
+} */

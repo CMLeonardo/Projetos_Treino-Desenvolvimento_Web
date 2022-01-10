@@ -1,0 +1,97 @@
+main {
+    display: block;
+    height: 100%;
+    background-color: #f7f7f7;
+    width: calc(100% - 250px);
+}
+main .main-content {
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+}
+
+.main-content::-webkit-scrollbar{
+    width: 6px;
+    height: 4px;
+}
+
+.main-content::-webkit-scrollbar-thumb{
+    background: #120a8f;
+    border-radius: 10px;
+}
+
+.main-content::-webkit-scrollbar-thumb:hover{
+    background: #564bf8;
+}
+
+.main-content::-webkit-scrollbar-track{
+    background: #999999;
+    border-radius: 10px;
+    box-shadow: inset 7px 10px 12px 0px #F0F0F0;
+}
+
+.main-content .panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+.panel-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.panel-50 {
+    width: 48%;
+}
+
+.panel-row button {
+    height: 100px;
+    background: linear-gradient(135deg, #120a8f, rgb(176, 241, 221));
+    color: #fff;
+    border-radius: 5px
+}
+
+.panel-row button:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+div #ajax-content {
+    width: 100%;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+div #ajax-content button {
+    background: linear-gradient(135deg, #120a8f, rgb(176, 241, 221));
+    color: #fff;
+}
+
+div #ajax-content button:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+div #ajax-content label {
+    color: #72777a;
+    font-size: 14px;
+}
+
+div #ajax-content table svg {
+    cursor: pointer;
+}
+
+.dynamic-content {
+    padding: 20px;
+}

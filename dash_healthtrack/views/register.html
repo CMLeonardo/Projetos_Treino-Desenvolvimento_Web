@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+    <title>Health Track</title>
+</head>
+<body>
+    <div class="register-parent">
+        <div class="register">
+            <div class="register-title">
+                <img src="../images/Image-login.png" alt="">
+                <h2>Health Track</h2>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="nome" class="form-label"><b>Nome Completo</b></label>
+                    <input type="text" class="form-control" id="nome" placeholder="Insira seu Nome">
+                </div>
+                <div class="form-group">
+                    <label for="idade" class="form-label"><b>Idade</b></label>
+                    <input type="number" class="form-control" id="idade"  min="1" max="100" value="1">
+                </div>
+                <div class="form-group">
+                    <label for="genero" class="form-label"><b>Gênero</b></label>
+                    <select class="form-select" id="genero">
+                        <option selected>...</option>
+                        <option value="M">Maculino</option>
+                        <option value="F">Feminino</option>
+                        <option value="O">Outro</option>
+                      </select>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label"><b>Email</b></label>
+                  <input type="email" class="form-control" id="email" placeholder="Insira seu Email">
+                </div>
+                <div class="form-group">
+                  <label for="senha" class="form-label"><b>Senha</b></label>
+                  <input type="password" class="form-control" id="senha" placeholder="Insira sua Senha">
+                </div>
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../plugins/fontawesome/js/all.min.js"></script>
+</body>
+</html>

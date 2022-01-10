@@ -1,0 +1,15 @@
+.header-site {
+    background-color: rgb(24, 102, 94);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.content-site {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}

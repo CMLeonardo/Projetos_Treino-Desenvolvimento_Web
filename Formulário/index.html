@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário de Pesquisa - NNP</title>
+        <link  rel="stylesheet"  type="text/css" href="style/estilo.css">
+    </head>
+
+    <body>
+        <h1>No Name Project</h1>
+        <h2>Formulário de satisfação</h2>
+
+        <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ" method="POST">
+            <label for="nome">Nome</label> <br>
+            <input type="text" name="nome" id="nome" class="caixa" size="40" maxlength="100" required autofocus placeholder="Insira seu nome"> <br><br>
+        
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" class="caixa" size="40" maxlength="100" required placeholder="Insira seu email"> <br><br>
+        
+            <label for="idade">Idade</label> <br>
+            <input type="number" name="idade" id="idade" class="caixa" size="40" min="1" max="100" required placeholder="Insira sua idade"> <br><br>
+            
+            <label for="ocupacao">Função</label> <br>
+            <input type="text" name="ocupacao" id="ocupacao" class="caixa" size="40" list="opcoes" required placeholder="Selecione umas das opções"> <br><br>
+            <datalist id="opcoes">
+                <option value="Estudante">Estudante</option>
+                <option value="Trabalhador em tempo integral">Trabalhador em tempo integral</option>
+                <option value="Estudante em tempo integral">Estudante em tempo integral</option>
+                <option value="Prefiro não informar">Prefiro não informar</option>
+                <option value="Outros">Outros</option>
+            </datalist>
+            
+            <label>Você Recomendaria a NNP para um amigo?</label> <br>
+            <input type="radio" name="feedback" id="feedback1" value="Sim"> 
+            <label for="feedback1">Sim</label> <br>
+            <input type="radio" name="feedback" id="feedback2" value="Talvez"> 
+            <label for="feedback2">Talvez</label> <br>
+            <input type="radio" name="feedback" id="feedback3" value="Não"> 
+            <label for="feedback3">Não</label> <br><br>
+
+            <label>Qual você acha que deverá ser meu próximo projeto?</label> <br>
+            <input type="checkbox" name="projeto1" id="projeto1" value="Front-end">
+            <label for="projeto1">Projeto Front-end</label> <br>
+            <input type="checkbox" name="projeto2" id="projeto2" value="Back-end">
+            <label for="projeto2">Projeto Back-end</label> <br> 
+            <input type="checkbox" name="projeto3" id="projeto3" value="Website">
+            <label for="projeto3">Website</label> <br>
+            <input type="checkbox" name="projeto4" id="projeto4" value="Portfólio">
+            <label for="projeto4">Portfólio</label> <br> 
+            <input type="checkbox" name="projeto5" id="projeto5" value="Slider">
+            <label for="projeto5">Slider de imagens</label> <br>
+            <input type="checkbox" name="projeto6" id="projeto6" value="Landing">
+            <label for="projeto6">Landing Page</label> <br><br>
+
+            <div>
+                <label for="comentarios">Algum comentário ou sugestão?</label> <br>
+                <textarea name="comentarios" id="comentarios" size="40" maxlength="100" placeholder="Insira seu comentário"> </textarea> <br><br>
+            </div>
+
+            <input type="submit" value="Enviar" id="enviar" name="enviar">
+        </form>
+    </body>
+</html>

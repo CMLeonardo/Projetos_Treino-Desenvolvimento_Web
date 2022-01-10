@@ -1,0 +1,22 @@
+
+html {
+    background-color: bisque;
+}
+body {
+    background-color: beige;
+    text-align: center;
+    
+    box-shadow: gray;
+}
+
+#caixa {
+    text-align: left;
+}
+
+#enviar {
+    text-align: center;
+	width: 80px;
+	background: lightsalmon;
+	border:1px solid #333;
+	cursor:pointer;
+}
