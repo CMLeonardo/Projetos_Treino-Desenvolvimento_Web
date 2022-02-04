@@ -5,7 +5,7 @@
 }
 
 :root{
-    --primary-color: #FFBA00;
+    --primary-color: #f3a531;
     --secundary-color: #FFF1CC;
     --shadow-color: #CCC;
     --text-color: #FFF;
@@ -52,6 +52,10 @@ footer{
     padding: 20px;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 @media (max-width:480px){
     header{
         position:fixed;
@@ -67,4 +71,5 @@ footer{
         width:100%;
         box-shadow: none;
     }
+
 }
