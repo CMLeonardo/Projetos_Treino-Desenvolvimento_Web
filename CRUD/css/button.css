@@ -1,5 +1,6 @@
 .button{
     border-style: none;
+    border-radius: 10px;
     height: 40px;
     padding: 6px 12px;
     background-color: black;
@@ -10,15 +11,15 @@
 }
 
 .button.blue{
-    background-color: #1FB6FF;
+    background-color: #1577a9;
 }
 
 button.green{
-    background-color: #13CE66;
+    background-color: #109f50;
 }
 
 button.red{
-    background-color: #FF4949;
+    background-color: #d52626;
 }
 
 .button:hover{

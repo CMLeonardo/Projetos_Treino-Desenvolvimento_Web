@@ -63,7 +63,9 @@ const saveCliente = () => {
             updateTable()
             closeModal()
         } else {
-            console.log('Editando')
+            updateCliente(index, cliente)
+            updateTable()
+            closeModal()
         }
     }
 }
@@ -105,8 +107,9 @@ const fillfields = (cliente) => {
 }
 
 const editCliente = (index) => {
-    const clientes = readCliente()[index]
-    fillfields(clientes)
+    const cliente = readCliente()[index]
+    cliente.index = index
+    fillfields(cliente)
     openModal()
 }
 
@@ -116,7 +119,12 @@ const editDelete = (event) => {
         if(action == 'editar') {
             editCliente(index)
         } else {
-
+            const cliente = readCliente()[index]
+            const response = confirm (`Deseja realmente excluir o cliente ${cliente.nome}`)
+            if(response) {
+                deleteCliente(index)
+                updateTable()
+            }
         }
     }
 }
