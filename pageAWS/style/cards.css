@@ -1,0 +1,18 @@
+#cards-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#cards-area .card {
+    background-color: #283B53;
+    color: #ffff;
+    border-color: #ffff;
+    padding: 10px;
+}
+
+.card-title {
+    color: #FECD84;
+}

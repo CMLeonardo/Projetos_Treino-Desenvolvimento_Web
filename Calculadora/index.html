@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora em JS</title>
+    <link rel="stylesheet" href="./style/all.css">
+</head>
+<body>
+    <div class="main">
+        <div class="calculadora">
+            <form id="items">
+                <input type="text" class="text-maincolor" id="display" name="display" disabled><br>
+                <div class="buttons">
+                    <input type="button" class="cln-maincolor" name="text12" value="C" onclick="location.reload()">
+                    <input type="button" class="num-maincolor" name="clcbtn" value="<" onclick="apagarnum(this.form.display)">
+                    <input type="button" class="add-maincolor" name="addbtn" value="+" onclick="insertnum(this.form.display, addbtn.value)"><br>
+                </div>
+                <div class="buttons">
+                    <input type="button" class="num-maincolor" name="btn7" value="7" onclick="insertnum(this.form.display, btn7.value)">
+                    <input type="button" class="num-maincolor" name="btn8" value="8" onclick="insertnum(this.form.display, btn8.value)">
+                    <input type="button" class="num-maincolor" name="btn9" value="9" onclick="insertnum(this.form.display, btn9.value)">
+                    <input type="button" class="sub-maincolor" name="subbtn" value="-" onclick="insertnum(this.form.display, subbtn.value)"><br>
+                </div>
+                <div class="buttons">
+                    <input type="button" class="num-maincolor" name="btn4" value="4" onclick="insertnum(this.form.display, btn4.value)">
+                    <input type="button" class="num-maincolor" name="btn5" value="5" onclick="insertnum(this.form.display, btn5.value)">
+                    <input type="button" class="num-maincolor" name="btn6" value="6" onclick="insertnum(this.form.display, btn6.value)">
+                    <input type="button" class="mul-maincolor" name="mulbtn" value="*" onclick="insertnum(this.form.display, mulbtn.value)"><br>
+                </div>
+                <div class="buttons">
+                    <input type="button" class="num-maincolor" name="btn1" value="1" onclick="insertnum(this.form.display, btn1.value)">
+                    <input type="button" class="num-maincolor" name="btn2" value="2" onclick="insertnum(this.form.display, btn2.value)">
+                    <input type="button" class="num-maincolor" name="btn3" value="3" onclick="insertnum(this.form.display, btn3.value)">
+                    <input type="button" class="div-maincolor" name="divbtn" value="/" onclick="insertnum(this.form.display, divbtn.value)"><br>
+                </div>
+                <div class="buttons">
+                    <input type="button" class="num-maincolor" name="dotbtn" value="." onclick="insertnum(this.form.display, dotbtn.value)">
+                    <input type="button" class="num-maincolor" name="btn0" value="0" onclick="insertnum(this.form.display, btn0.value)">
+                    <input type="button" class="eql-maincolor" name="eqlbtn" value="=" onclick="calcularnum(this.form)">  
+                </div>         
+            </form>
+        </div>
+    </div>
+    <footer>
+        Feito por Cesar Leonardo <br>
+        GitHub: <a href="https://github.com/CMLeonardo">CMLeonardo</a>
+    </footer>
+</body>
+<script src="./app.js"></script>
+</html>

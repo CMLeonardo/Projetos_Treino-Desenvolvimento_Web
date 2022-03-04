@@ -1,0 +1,25 @@
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    height: 80%;
+    background: #0012196d;
+    border-radius: 30px;
+}
+
+#items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 15px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}

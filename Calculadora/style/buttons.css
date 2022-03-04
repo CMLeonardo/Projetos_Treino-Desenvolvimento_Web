@@ -1,0 +1,72 @@
+.num-maincolor {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #edede9;
+    font-size: x-large;
+    color: #001219;
+}
+.add-maincolor {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #edede9;
+    font-size: x-large;
+    color: #001219;
+}
+
+.sub-maincolor {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #edede9;
+    font-size: x-large;
+    color: #001219;
+}
+
+.mul-maincolor {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #edede9;
+    font-size: x-large;
+    color: #001219;
+}
+
+.div-maincolor {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #edede9;
+    font-size: x-large;
+    color: #001219;
+}
+
+.eql-maincolor {
+    width: 120px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #edede9;
+    font-size: x-large;
+    color: #001219;
+}
+
+.cln-maincolor {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background: #edede9;
+    font-size: x-large;
+    color: #001219;
+}
+
+.text-maincolor {
+    width: 260px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: x-large;
+    color: #001219;
+}
