@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>IMC Calculator</title>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="container">
+            <div class="title">
+                <h1>Cálculo de IMC</h1>
+            </div>
+            <form id="register">
+                <label for="nameField">Nome:</label>
+                <input type="text" name="nameField" class="field" id="name" placeholder="Insira seu nome" required autofocus><br>
+                <label for="weightField">Peso:</label>
+                <input type="text" name="weightField" class="field" id="weight" placeholder="Insira seu peso (utilize . )" required><br>
+                <label for="heightField">Altura:</label>
+                <input type="text" name="heightField" class="field" id="height" placeholder="Insira sua altura (utilize . )" required><br>
+                <input type="button" value="Calcular" id="push">
+            </form>
+            <div id="answer">
+              
+            </div>
+        </div>
+
+        <footer>
+            <p>Feito por Cesar Leonardo</p>
+            <p>GitHub: <a href="https://github.com/CMLeonardo">CMLeonardo</a></p>
+        </footer>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
