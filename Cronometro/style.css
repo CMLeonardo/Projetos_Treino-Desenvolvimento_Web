@@ -45,101 +45,68 @@ body {
     padding: 30px 40px;
 }
 
-#newtask {
+#display {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #ffff;
     padding: 30px 20px;
     border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
-#newtask input {
-    position: relative;
-    width: 70%;
-    height: 45px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    border: 2px solid #d1d3d4;
-    padding: 12px;
-    font-weight: 500;
-    border-radius: 5px;
+#display h1{
+    margin-bottom: 20px;
 }
 
-#newtask input:focus {
-    outline: none;
-    border-color: #FECD84;
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: space-between;
+    gap: 20px;
 }
 
-#newtask button {
-    position: relative;
-    float: right;
-    width: 20%;
-    height: 45px;
+#buttons button:hover {
+    transition: 500ms;
+    transform: scale(1.05);
+}
+
+#stopbtn, #resetbtn {
+    background-color: #FECD84;
+    padding: 10px;
+    width: 25%;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    background-color: #FECD84;
     border: none;
     color: #ffff;
     cursor: pointer;
 }
 
-#newtask button:hover {
-    transition: 500ms;
-    transform: scale(1.05);
+#stopbtn:hover , #resetbtn:hover {
     background-color: #fbb54b;
 }
 
-#tasks {
-    background-color: #ffff;
-    padding: 30px 20px;
-    margin-top: 60px;
-    border-radius: 10px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-    width: 100%;
-    position: relative;
-}
-
-.task {
-    background-color: #ffff;
-    height: 50px;
-    padding: 5px 10px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 2px solid #d1d3d4;
-    cursor: pointer;
-}
-
-.task span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    margin-bottom: 10px;
-    font-weight: 700;
-}
-
-.task button {
-    background-color: #FECD84;
-    height: 100%;
-    width: 40px;
+#startbtn {
+    background-color: #3d5a80;
+    padding: 10px;
+    width: 50%;
     border-radius: 5px;
-    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
     border: none;
     color: #ffff;
     cursor: pointer;
-    outline: none;
 }
 
-.task button:hover {
-    transition: 500ms;
-    transform: scale(1.05);
-    background-color: #fbb54b;
-}
-
-.completed {
-    text-decoration: line-through;
+#startbtn:hover {
+    background-color: #283B53;
 }
 
 body::-webkit-scrollbar{
@@ -162,14 +129,12 @@ body::-webkit-scrollbar-track{
     box-shadow: inset 7px 10px 12px 0px #F0F0F0;
 }
 
+
 footer{
     width: 100%;
     height: 50px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 39px;
+    text-align: center;
     position: relative;
     font-size: small;
     font-style: italic;

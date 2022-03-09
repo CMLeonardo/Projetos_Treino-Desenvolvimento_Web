@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="./style.css">
-    <title>Lista de Tarefas</title>
+    <title>Cronômetro</title>
 </head>
 <body>
     <div class="main">
+        
         <div class="container">
             <div class="title">
-                <h1>Lista de Tarefas</h1>
+                <h1>Cronômetro</h1>
             </div>
-            <div id="newtask">
-                <input type="text" placeholder="Coisas a serem feitas">
-                <button id="push">Add</button>
+            <div id="display">
+                <h1><span id="hour">00</span> : <span id="min">00</span> : <span id="sec">00</span></h1>
+                <div id="buttons">
+                    <button id="stopbtn">stop</button>
+                    <button id="startbtn">start</button>
+                    <button id="resetbtn">reset</button>
+                </div>
             </div>
-            <div id="tasks">
-              
-            </div>
+            
         </div>
 
         <footer>
@@ -31,5 +33,4 @@
     </div>
 </body>
 <script src="./app.js"></script>
-<script src="plugins/fontawesome/js/all.min.js"></script>
 </html>

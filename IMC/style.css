@@ -39,7 +39,7 @@ body {
 .container {
     width: 40%;
     min-width: 450px;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 70px);
     margin: 0 auto -50px;
     position: relative;
     padding: 30px 40px;
@@ -95,6 +95,12 @@ body {
     cursor: pointer;
 }
 
+#push:hover {
+    transition: 500ms;
+    transform: scale(1.05);
+    background-color: #fbb54b;
+}
+
 #answer {
     background-color: #ffff;
     text-align: center;
@@ -109,7 +115,6 @@ body {
 #answer p {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    margin-bottom: 10px;
     font-weight: 400;
 }
 
@@ -137,11 +142,8 @@ body::-webkit-scrollbar-track{
 footer{
     width: 100%;
     height: 50px;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 49px;
+    text-align: center;
     position: relative;
     font-size: small;
     font-style: italic;

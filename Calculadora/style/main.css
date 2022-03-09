@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg, #001219, #0a9396);
+    background: #3d5a80;
 }
 
 .main {
@@ -10,17 +10,17 @@ body {
 }
 
 footer{
-    width:100;
-    height: 10%;
+    width:100%;
+    height: 50px;
+    margin-top: 6px;
     text-align: center;
     font-size: small;
     font-style: italic;
     padding: 20px;
     color: #CCC;
-    
 }
 
 footer a {
     text-decoration: none;
-    color: #0a9396;
+    color: #FECD84;
 }
