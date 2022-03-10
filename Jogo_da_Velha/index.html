@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="title">
+                <h1>Jogo da Velha</h1>
+            </div>
+            <div id="display">
+                <div id="buttons">
+                    <button id="startbtn">start</button>
+                    <button id="resetbtn" onclick="location.reload()">reset</button>
+                </div>
+            </div>
+            <div class="board" data-board>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+              <div class="cell" data-cell></div>
+            </div>
+            <div id="winning">
+                <h1 id="wintxt"></h1>
+                <button id="winbtn" onclick="location.reload()">Reiniciar</button>`;
+            </div>
+        </div>
+
+        <footer>
+            <p>Feito por Cesar Leonardo</p>
+            <p>GitHub: <a href="https://github.com/CMLeonardo">CMLeonardo</a></p>
+        </footer>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
