@@ -1,5 +1,3 @@
-
-
 document.querySelector('#push').onclick = function () {
     var name = document.getElementById('name').value;
     var weight = document.getElementById('weight').value;

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de Gorjeta</title>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="container">
+            <div class="title">
+                <h1>Calculadora de Gorjeta</h1>
+            </div>
+            <form id="register">
+                <label for="billField">Valor:</label>
+                <input type="number" name="billField" class="field" id="valueBill" placeholder="Insira o valor da conta" step="0.01" required autofocus><br>
+                <label for="tipField">Gorjeta:</label>
+                <h3 id="tip">50</h3>
+                <input type="range" name="tipField" class="field" id="valueTip" min="0" max="100" step="1" list="tickmarks"><br>
+                <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="10">
+                    <option value="20">
+                    <option value="30">
+                    <option value="40">
+                    <option value="50">
+                    <option value="60">
+                    <option value="70">
+                    <option value="80">
+                    <option value="90">
+                    <option value="100">
+                </datalist>
+                
+                <input type="button" value="Calcular" id="push">
+            </form>
+            <div id="answer">
+              
+            </div>
+        </div>
+
+        <footer>
+            <p>Feito por Cesar Leonardo</p>
+            <p>GitHub: <a href="https://github.com/CMLeonardo">CMLeonardo</a></p>
+        </footer>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
