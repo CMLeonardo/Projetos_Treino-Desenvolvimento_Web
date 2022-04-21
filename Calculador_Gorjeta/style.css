@@ -114,8 +114,10 @@ body {
 
 #answer p {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
+    margin-top: 20px;
     font-weight: 400;
+    color: #283B53;
 }
 
 body::-webkit-scrollbar{

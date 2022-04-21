@@ -1,3 +1,9 @@
+window.onload = function valorGorjeta() {    
+    var Tip = document.getElementById('valueTip');    
+    Tip.addEventListener("input", function () {
+    document.querySelector("#tip").innerHTML = Tip.value;
+    }, false);
+}
 
 document.querySelector('#push').onclick = function () {
     var valueBill = document.getElementById('valueBill').value;
@@ -8,6 +14,8 @@ document.querySelector('#push').onclick = function () {
     for (var i = 0; i < field.length; i++){ // Limpando a área de adição de afazeres depois de adiciona-los
         field[i].value = '';
     } 
+
+    valueTip = 50;
 }
 
 // Adicionando a resposta padrão na área de resposta
@@ -18,6 +26,6 @@ function adicionarResposta (result) {
 }
 
 function calcularGorjeta (valueBill, valueTip) {
-    var result = valueBill + (valueBill * (valueTip / 100));
-    return result;
+    var result = parseFloat(valueBill) + parseFloat(valueBill * (valueTip / 100));
+    return result.toFixed(2);
 }
