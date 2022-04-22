@@ -21,7 +21,7 @@ document.querySelector('#push').onclick = function () {
 // Adicionando a resposta padrão na área de resposta
 function adicionarResposta (result) {
     document.querySelector('#answer').innerHTML 
-        = `<h1>Gorjeta</h1>
+        = `<h1>Conta com Gorjeta</h1>
                 <p>${result}</p>`;
 }
 
