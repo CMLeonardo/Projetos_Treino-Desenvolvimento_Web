@@ -2,44 +2,44 @@
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background: #edede9;
+    background-color: #FECD84;
     font-size: x-large;
-    color: #001219;
+    color: #ffff;
 }
 .add-maincolor {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background: #edede9;
+    background-color: #FECD84;
     font-size: x-large;
-    color: #001219;
+    color: #ffff;
 }
 
 .sub-maincolor {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background: #edede9;
+    background-color: #FECD84;
     font-size: x-large;
-    color: #001219;
+    color: #ffff;
 }
 
 .mul-maincolor {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background: #edede9;
+    background-color: #FECD84;
     font-size: x-large;
-    color: #001219;
+    color: #ffff;
 }
 
 .div-maincolor {
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background: #edede9;
+    background-color: #FECD84;
     font-size: x-large;
-    color: #001219;
+    color: #ffff;
 }
 
 .eql-maincolor {
@@ -47,26 +47,42 @@
     height: 50px;
     margin-right: 20px;
     border-radius: 10px;
-    background: #edede9;
+    background-color: #FECD84;
     font-size: x-large;
-    color: #001219;
+    color: #ffff;
 }
 
 .cln-maincolor {
     width: 120px;
     height: 50px;
     border-radius: 10px;
-    background: #edede9;
+    background-color: #FECD84;
     font-size: x-large;
-    color: #001219;
+    color: #ffff;
 }
 
 .text-maincolor {
     width: 260px;
     height: 50px;
+    padding: 10px;
     margin-right: 20px;
     margin-top: 20px;
     border-radius: 10px;
     font-size: x-large;
-    color: #001219;
+    color: #FECD84;
+}
+
+/* --------------------------- Light Mode ----------------- */
+body.light-mode .add-maincolor, 
+body.light-mode .cln-maincolor, 
+body.light-mode .div-maincolor, 
+body.light-mode .eql-maincolor, 
+body.light-mode .mul-maincolor, 
+body.light-mode .num-maincolor, 
+body.light-mode .sub-maincolor {
+    background: #3d5a80;
+}
+
+body.light-mode .text-maincolor {
+    color: #3d5a80;
 }

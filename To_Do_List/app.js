@@ -40,3 +40,14 @@ function riscarTask () {
         tasks[i].onclick = function () {this.classList.toggle('completed');}
     }
 }
+
+//Mudando os temas
+var checkbox = document.getElementById("toggle");
+checkbox.addEventListener("change",
+function mudandoTemas () {
+    if (checkbox.checked) {
+        document.body.classList.add("light-mode");
+    } else {
+        document.body.classList.remove("light-mode");
+    }
+});

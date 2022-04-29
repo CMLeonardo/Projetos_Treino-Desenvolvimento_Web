@@ -182,3 +182,76 @@ footer a {
     text-decoration: none;
     color: #FECD84;
 }
+
+/* -------------------------- Tema Claro ----------------------------- */
+
+#toggle{
+    display: none;
+}
+
+.button {
+    width: 90px;
+    height: 30px;
+    background-color: #ffff;
+    border-radius: 30px;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+}
+
+.button::after {
+    content: url('../_img/lua.png');
+    width: 44px;
+    height: 44px;
+    background-color: #3d5a80;
+    border: solid 2px #FECD84;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    display: grid;
+    place-content: center;
+    line-height: 0;
+    transition: background-color 1s, 
+    transform 1s ease-in;
+}
+
+#toggle:checked + .button::after {
+    content: url("../_img/sol.png");
+    background-color: #FECD84;
+    border-color: #3d5a80;
+    transform: translateX(60px) rotate(360deg);
+}
+
+body.light-mode footer a {
+    text-decoration: none;
+    color: #283B53;
+}
+
+body.light-mode footer{
+    color: #3d5a80;
+}
+
+body.light-mode {
+    background: #FECD84;
+}
+
+body.light-mode .main h1, h3{
+    color: #3d5a80;
+}
+
+body.light-mode #push,
+body.light-mode .task button{
+    background-color: #3d5a80;
+}
+
+body.light-mode #push:hover, 
+body.light-mode .task button:hover {
+    background-color: #283B53;
+}
+
+body.light-mode #newtask input:focus {
+    border-color: #3d5a80;
+}

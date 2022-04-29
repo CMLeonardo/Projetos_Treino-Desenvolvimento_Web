@@ -31,3 +31,14 @@ function classificarIMC (imc) {
     else if (imc > 40) {return('com obesidade III');}
     else {return('default')}
 }
+
+//Mudando os temas
+var checkbox = document.getElementById("toggle");
+checkbox.addEventListener("change",
+function mudandoTemas () {
+    if (checkbox.checked) {
+        document.body.classList.add("light-mode");
+    } else {
+        document.body.classList.remove("light-mode");
+    }
+});

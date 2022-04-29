@@ -1,4 +1,4 @@
-# Calculador de Gorjeta
+# Calculadora de Gorjeta
 Esse programa consiste no cálculo de uma conta com uma determianda porcentagem de gorjeta, para funcionar basta o usuário entrar com o valor da conta no primeiro input e depois selecionar a porcentagem de gorjeta que ele deseja adicionar ao valor final.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

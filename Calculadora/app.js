@@ -10,3 +10,14 @@ function calcularnum(form) {
 function apagarnum (input) {
      input.value = input.value.substring(0, input.value.length -1);
 }
+
+//Mudando os temas
+var checkbox = document.getElementById("toggle");
+checkbox.addEventListener("change",
+function mudandoTemas () {
+    if (checkbox.checked) {
+        document.body.classList.add("light-mode");
+    } else {
+        document.body.classList.remove("light-mode");
+    }
+});
