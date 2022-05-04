@@ -3,15 +3,15 @@ Esse programa consiste no cálculo de uma conta com uma determianda porcentagem 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-## Antes de Calcular a Gorjeta
+## Calculadora de Gorjeta em Dark Mode
 <p align="center">
-    <img src="../_img/CalculadoraGorjeta.png" alt="Imagem de antes de calcular a gorjeta"/>
+    <img src="../_img/CalculadoraGorjetaDarkMode.png" alt="Imagem da calculadora de gorjeta em Dark mode"/>
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-## Depois de Calcular a Gorjeta
+## Calculadora de Gorjeta em Light Mode
 <p align="center">
-    <img src="../_img/CalculadoraGorjetaAnswer.png" alt="Imagem depois de calcular a gorjeta"/>
+    <img src="../_img/CalculadoraGorjetaLightMode.png" alt="Imagem da calculadora de gorjeta em Light mode"/>
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 

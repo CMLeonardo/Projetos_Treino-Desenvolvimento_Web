@@ -3,9 +3,15 @@ Nesse projeto temos o desenvolvimento de uma calculadora que é capaz de fazer t
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-## Imagem da Calculadora
+## Imagem da Calculadora em Dark Mode 
 <p align="center">
-    <img src="../_img/Calculadora.png" alt="Imagem da Calculadora"/>
+    <img src="../_img/CalculadoraDarkMode.png" alt="Imagem da Calculadora em Dark mode"/>
+</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+## Imagem da Calculadora em Light Mode 
+<p align="center">
+    <img src="../_img/CalculadoraLightMode.png" alt="Imagem da Calculadora em Light mode"/>
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
