@@ -5,7 +5,7 @@ Nesse projeto temos o enfoque para o CSS já que temos que trabalhar com modelag
 
 ## Imagem do menu 3D
 <p align="center">
-    <img src="../_img/3DMenu" alt="Imagem do menu 3D com efeito de hover"/>
+    <img src="../_img/3DMenu.png" alt="Imagem do menu 3D com efeito de hover"/>
 </p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
