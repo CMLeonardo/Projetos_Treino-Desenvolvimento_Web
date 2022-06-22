@@ -201,12 +201,13 @@ footer {
     transition: .2s;
 }
 
-footer p {
+footer a {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 48px;
     color: rgb(211, 237, 241);
     padding: 10px;
+    text-decoration: none;
 }
 
 body::-webkit-scrollbar{
